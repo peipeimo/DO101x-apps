@@ -13,7 +13,7 @@ app = express();
 // });
 
 app.get('/mars', function (req, res) {
-  res.send('Hello Mars!\n');
+  res.send('Hello Mars V2!\n');
 });
 
 app.listen(8080, function () {
